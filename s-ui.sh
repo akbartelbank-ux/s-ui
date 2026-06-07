@@ -63,7 +63,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/main/install.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/akbartelbank-ux/s-ui/main/install.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
